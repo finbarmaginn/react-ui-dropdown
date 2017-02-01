@@ -23,7 +23,9 @@ export default class SearchInput extends Component {
         onChange={this.props.onChange}
         onFocus={this.props.onFocus}
         onBlur={this.props.onBlur}
-        onKeyDown={this.props.onKeyDown}/>
+        onKeyDown={this.props.onKeyDown}
+        disabled
+      />
     )
   }
 }
